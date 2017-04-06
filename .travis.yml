@@ -3,4 +3,5 @@ xcode_workspace: TestTravis.xcworkspace
 xcode_scheme: TestTravis
 osx_image: xcode8.3
 xcode_sdk: iphonesimulator10.1
-
+script: 
+- xcodebuild -workspace TestTravis.xcworkspace -scheme TestTravis -sdk iphonesimulator build test -destination 'platform=iOS Simulator,name=iPhone 5s,OS=10.3'
