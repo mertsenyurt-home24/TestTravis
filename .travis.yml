@@ -1,4 +1,6 @@
 language: swift
-xcode_project: TestTravis.xcodeproj # path to your xcodeproj folder
+xcode_workspace: TestTravis.xcode_workspace # path to your xcodeproj folder
 xcode_scheme: TestTravis
 osx_image: xcode8.3
+xcode_sdk: iphonesimulator10.1
+
