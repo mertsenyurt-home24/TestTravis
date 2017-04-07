@@ -2,6 +2,3 @@ machine:
   xcode:
     version: "8.3"
 
-test:
-  override:
-    - ./bin/tests
