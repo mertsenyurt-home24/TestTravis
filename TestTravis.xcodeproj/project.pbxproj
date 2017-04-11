@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -238,7 +238,7 @@
 				};
 			};
 			buildConfigurationList = 41F6F1C51E9513D0006B07E1 /* Build configuration list for PBXProject "TestTravis" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -493,6 +493,7 @@
 			baseConfigurationReference = 492691F0CEC52562F40A21C5 /* Pods-TestTravis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2BJ8Y2DV5S;
 				INFOPLIST_FILE = TestTravis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -507,6 +508,7 @@
 			baseConfigurationReference = 7C41240434E681BAD67F4BDF /* Pods-TestTravis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 2BJ8Y2DV5S;
 				INFOPLIST_FILE = TestTravis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -593,6 +595,7 @@
 				41F6F1F41E9513D0006B07E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41F6F1F51E9513D0006B07E1 /* Build configuration list for PBXNativeTarget "TestTravisTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +604,7 @@
 				41F6F1F71E9513D0006B07E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41F6F1F81E9513D0006B07E1 /* Build configuration list for PBXNativeTarget "TestTravisUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +613,7 @@
 				41F6F1FA1E9513D0006B07E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

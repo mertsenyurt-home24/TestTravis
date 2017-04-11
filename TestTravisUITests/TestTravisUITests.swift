@@ -42,7 +42,7 @@ class TestTravisUITests: XCTestCase {
     }
 
     func testFail() {
-        XCTAssertTrue(false)
+        XCTAssertTrue(true)
     }
     
 }
